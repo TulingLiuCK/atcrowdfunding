@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/at01-admin-parent/at02-admin-webui" />
+    <file type="web" url="file://$PROJECT_DIR$/pro05-spring-security" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/at01-admin-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/at05-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/at06-common-reverse/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

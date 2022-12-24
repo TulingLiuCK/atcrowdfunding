@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%highlight{[%p] %-d{yyyy-MM-dd HH:mm:ss} --> %l%n[massage] %m%n}{FATAL=red, ERROR=red, WARN=yellow, INFO=cyan, DEBUG=cyan,TRACE=blue}"/>
+        </Console>
+    </appenders>
+    <loggers>
+        <root level = "DEBUG">
+            <appender-ref ref="Console"/>
+        </root>
+                <Logger name="org.springframework" level="INFO"/>
+                <Logger name="org.mybatis" level="INFO"/>
+                <Logger name="org.apache.catalina.startup.DigesterFactory" level="error"/>
+                <Logger name="org.apache.catalina.util.LifecycleBase" level="error"/>
+                <Logger name="org.apache.coyote.http11.Http11NioProtocol" level="warn"/>
+                <Logger name="org.apache.sshd.common.util.SecurityUtils" level="warn"/>
+                <Logger name="org.apache.tomcat.util.net.NioSelectorPool" level="warn"/>
+                <Logger name="org.crsh.plugin" level="warn"/>
+                <Logger name="org.crsh.ssh" level="warn"/>
+                <Logger name="org.eclipse.jetty.util.component.AbstractLifeCycle" level="error"/>
+                <Logger name="org.hibernate.validator.internal.util.Version" level="warn"/>
+                <Logger name="org.springframework.boot.actuate.autoconfigure.CrshAutoConfiguration" level="warn"/>
+                <Logger name="org.springframework.boot.actuate.endpoint.jmx" level="warn"/>
+                <Logger name="org.thymeleaf" level="warn"/>
+    </loggers>
+
+
+</configuration>

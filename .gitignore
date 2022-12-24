@@ -1,0 +1,5 @@
+# Project exclude paths
+/at01-admin-parent/at02-admin-webui/target/
+/at01-admin-parent/at03-admin-component/target/
+/at01-admin-parent/at04-admin-entity/target/
+/at05-common-util/target/
